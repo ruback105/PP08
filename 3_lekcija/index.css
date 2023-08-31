@@ -1,0 +1,39 @@
+.test {
+  color: yellow;
+}
+
+p {
+  color: red;
+}
+
+p {
+  color: blue;
+}
+
+p {
+  color: green;
+}
+
+/* 1.2.1 */
+/* p.class1#id .test {
+  color: red;
+} */
+
+/* 1.2.0 */
+/* .class1#id .test {
+  color: black;
+} */
+
+/* 0.3.1 */
+input[type="password"].class1.class2 {
+  border: 2px solid black;
+}
+
+/* 1.2.1 */
+input[type="password"].class1#id {
+  border: 1px solid blue;
+}
+
+input {
+  border: 10px solid red !important;
+}
